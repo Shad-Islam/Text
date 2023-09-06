@@ -9,7 +9,8 @@
       background-color: lightblue;
     }
     textarea{
-        width: 80%;
+      width: 100%;
+      min-height: 30px;
     }
   }
 /* media query end*/
