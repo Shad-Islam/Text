@@ -1,4 +1,5 @@
 const input = document.querySelector("#input");
+const resetBtn = document.querySelector(".container__details-reset");
 const count = document.querySelector(".container__details-title span");
 const countBtn = document.querySelector(".container__details-countBtn");
 const upperCaseBtn = document.querySelector(".container__details-upperCase");
@@ -26,4 +27,12 @@ function wordLowerCase(input) {
 }
 lowerCaseBtn.addEventListener("click", () => {
   wordLowerCase(input);
+});
+// reset button
+function reset(input) {
+  input.value = "";
+  count.textContent = 0;
+}
+resetBtn.addEventListener("click", () => {
+  reset(input);
 });
