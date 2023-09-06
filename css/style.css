@@ -3,6 +3,16 @@
     padding: 0px;
     box-sizing: border-box;
 }
+/* common css end  */
+@media only screen and (max-width: 600px) {
+    body {
+      background-color: lightblue;
+    }
+    textarea{
+        width: 80%;
+    }
+  }
+/* media query end*/
 
 .container{
     gap: 30px;
