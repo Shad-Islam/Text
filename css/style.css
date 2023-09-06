@@ -3,3 +3,59 @@
     padding: 0px;
     box-sizing: border-box;
 }
+
+.container{
+    gap: 30px;
+    width: 80%;
+    height: 50vh;
+    display: flex;
+    padding: 20px;
+    margin: 30px auto;
+    align-items: center;
+    flex-direction: column;
+    border: 1px solid #000;
+}
+
+.container__title{
+    font-size: 26px;
+    letter-spacing: 10px;
+}
+
+.container__input{
+    width: 100%;
+    height: 100px;
+    text-align: center;
+    /* background-color: #000; */
+}
+
+.container__input input {
+    height: 65px;
+    width: 550px;
+    outline: 0px;
+    border-radius:10px;
+}
+
+.container__details{
+    width: 100%;
+    text-align: center;
+}
+
+.container__details-title{
+    font-size: 26px;
+    letter-spacing: 5px;
+}
+
+.container__details-btns{
+    gap: 20px;
+    display: flex;
+    margin-top: 30px;
+    justify-content: center;
+
+}
+
+.container__details-btns button{
+    padding: 20px;
+    cursor: pointer;
+    border-radius: 10px;
+
+}
